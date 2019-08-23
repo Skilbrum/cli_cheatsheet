@@ -1,4 +1,8 @@
 # Powershell  
+
+### SSH with tunnel
+ssh user@host -L clientport:localhost:serverport
+
 ### Flush DNS cache
 ipconfig /flushdns
 
