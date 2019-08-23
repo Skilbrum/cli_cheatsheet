@@ -18,7 +18,7 @@ export VARNAME=$VARNAME:varvalue
 ldconfig -p | grep libname
 
 ## CentOS
-###CentOS Version
+### CentOS Version
 cat /etc/centos-release
 
 ### Install GCC with yum
