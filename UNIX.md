@@ -41,8 +41,11 @@ crontab -l
 ```
 crontab -r
 ```
-#### several commands every 15 minutes
+#### several commands every 15 minutes with custom environment variables
+In cron file:  
 ```
+PATH=/home/user/anaconda/bin
+SHELL=/bin/bash
 */15 * * * * cd ~/; python script.py
 ```
 
