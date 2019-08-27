@@ -12,6 +12,10 @@ ls | grep regexp
 ```
 grep -i filename
 ```
+### Find in current folder for string
+```
+grep -nr 'string' .
+```
 
 ### New environment variable
 ```
