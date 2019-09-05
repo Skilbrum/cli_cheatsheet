@@ -31,6 +31,8 @@ export VARNAME=$VARNAME:varvalue
 ```
 ldconfig -p | grep libname
 ```
+### Directory size
+```du -sh```
 
 ### Crontab
 #### edit
