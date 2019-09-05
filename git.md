@@ -32,3 +32,17 @@ git stash
 ```
 git stash list
 ```
+
+### Last commit hash
+```
+git log -1 --pretty=%H
+```
+
+### Current branch name only
+since 2.22
+```git branch --show-current```
+before 2.22
+```git rev-parse --abbrev-ref HEAD```
+
+###  zip tracked files from current branch
+git archive --format=zip -o filename.zip commithash
