@@ -17,6 +17,11 @@ grep -i filename
 grep -nr 'string' .
 ```
 
+### SHA1 of file
+```
+sha1sum filename
+```
+
 ### New environment variable
 ```
 export VARNAME=varvalue
