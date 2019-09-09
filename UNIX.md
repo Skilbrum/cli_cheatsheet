@@ -34,6 +34,11 @@ ldconfig -p | grep libname
 ### Directory content size
 ```du -sh * | sort -rh```
 
+### Unzip
+```
+unzip archive.zip -d destination_folder/
+```
+
 ### Crontab
 #### edit
 ```
