@@ -38,3 +38,8 @@ SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'tablename
 ```
 SELECT TOP(5) [index], columnname FROM random ORDER BY [index] DESC
 ```
+
+### Net resource as disk
+```
+net use X: //path/to/resource
+```
