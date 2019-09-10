@@ -40,13 +40,18 @@ git log -1 --pretty=%H
 
 ### Current branch name only
 since 2.22  
-```git branch --show-current```
+```git branch --show-current```  
 before 2.22  
 ```git rev-parse --abbrev-ref HEAD```
 
 ###  zip tracked files from current branch
 ```
 git archive --format=zip -o filename.zip commithash
+```
+
+### pack repository with diff from remote origin to bundle-file
+```
+git bundle create ../hash.bundle origin/branchname..branchname HEAD branchname
 ```
 
 ### extract file from stash
