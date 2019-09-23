@@ -8,6 +8,11 @@ sudo ntpdate pool.ntp.org
 ls | grep regexp
 ```
 
+### Stop process by pattern for name
+```
+pkill -f pattern
+```
+
 ### Find string in file by regular expression (register insensitive)
 ```
 grep -i filename
