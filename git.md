@@ -58,3 +58,13 @@ git bundle create ../hash.bundle origin/branchname..branchname HEAD branchname
 ```
 git checkout stash@{0} -- filename
 ```
+
+### Commit difference
+```
+git show-branch branch1 branch2
+```
+
+### File diff
+```
+git diff --name-only commit1hash commit2hash
+```
