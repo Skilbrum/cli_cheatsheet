@@ -25,3 +25,5 @@
 ```jupyter notebook password```
 ### Run Lab on certain port, meta IP, without browser, from root (container frinedly)
 ```jupyter lab --ip=0.0.0.0 --port=portnum --no-browser --allow-root```
+### Run jupyter lab from ceratin path
+```jupyter lab --LabApp.notebook_dir=path```
