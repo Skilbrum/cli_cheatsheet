@@ -108,3 +108,9 @@ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(
 apt-get update  
 sudo apt-get install docker-ce-cli  
 ```
+
+### Start Docker service
+```sudo service docker start```
+
+### Add user to docker user group
+```sudo usermod -a -G docker username```
