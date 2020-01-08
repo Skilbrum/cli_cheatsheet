@@ -114,3 +114,6 @@ sudo apt-get install docker-ce-cli
 
 ### Add user to docker user group
 ```sudo usermod -a -G docker username```
+
+### Open TCP ports list
+```netstat -lnt```
