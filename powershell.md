@@ -2,7 +2,7 @@
 
 ### SSH with tunnel
 ```
-ssh user@host -L clientport:localhost:serverport
+ssh -i id_file -L clientport:localhost:serverport user@host 
 ```
 ### Flush DNS cache
 ```
