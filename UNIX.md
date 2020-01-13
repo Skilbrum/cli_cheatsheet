@@ -8,6 +8,12 @@ sudo ntpdate pool.ntp.org
 ls | grep regexp
 ```
 
+### Recursive find by file name pattern
+``` find . -name "*filename*" ```
+
+### Find path for executable
+```which command```
+
 ### Stop process by pattern for name
 ```
 pkill -f pattern
@@ -41,8 +47,8 @@ export VARNAME=$VARNAME:varvalue
 ```
 ldconfig -p | grep libname
 ```
-### Directory content size
-```du -sh * | sort -rh```
+### Directory content size (including hidden)
+```du -sch .[!.]* | sort -rh```
 
 ### Unzip
 ```
