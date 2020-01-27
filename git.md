@@ -33,9 +33,9 @@ git stash
 git stash list
 ```
 
-### Last commit hash
+### Last commit with format
 ```
-git log -1 --pretty=%H
+git log -5 --pretty='format:%ci %h %s'
 ```
 
 ### Current branch name only
