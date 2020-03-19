@@ -118,8 +118,15 @@ sudo apt-get install docker-ce-cli
 ### Start Docker service
 ```sudo service docker start```
 
+## User management
 ### Add user to docker user group
 ```sudo usermod -a -G docker username```
+
+### Check path access
+```getfacl /home/path/```
+
+### Grant read and execute access to path for user
+```setfacl -m user:username:rx /home/path/```
 
 ### Open TCP ports list
 ```netstat -lnt```
