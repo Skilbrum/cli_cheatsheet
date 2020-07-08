@@ -3,6 +3,12 @@
 ```
 sudo ntpdate pool.ntp.org
 ```
+
+### Set time synchronization  
+```
+timedatectl set-ntp true
+```
+
 ### Find in STDOUT by regular expression
 ```
 ls | grep regexp
