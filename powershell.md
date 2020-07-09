@@ -75,3 +75,6 @@ du -c -l 1 | Out-File -FilePath du.csv -Append
 
 ### Test network connection
 ```tnc 8.8.8.8 -Port 80```
+
+### TCP ports
+```netstat -ano -p tcp```
