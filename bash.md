@@ -56,6 +56,11 @@ ldconfig -p | grep libname
 ### Directory content size (including hidden)
 ```du -sch .[!.]* | sort -rh```
 
+### Show time when files was modified
+```
+ls -lt --time-style=full-iso
+```
+
 ### Unzip
 ```
 unzip archive.zip -d destination_folder/
