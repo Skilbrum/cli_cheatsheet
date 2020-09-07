@@ -1,5 +1,8 @@
 # Powershell  
 
+### OS bit depth
+```wmic os get osarchitecture```
+
 ### SSH with tunnel
 ```
 ssh -i id_file -L clientport:localhost:serverport user@host 
