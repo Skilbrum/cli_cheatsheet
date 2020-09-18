@@ -137,7 +137,10 @@ sudo apt-get install docker-ce-cli
 ```getfacl /home/path/```
 
 ### Grant read and execute access to path for user
-```setfacl -m user:username:rx /home/path/```
+```setfacl -m user:username:rx path/```
+
+# Grant access to group recursive by default
+```sudo setfacl -Rm d:g:group:rwX path/```
 
 ### Open TCP ports list
 ```netstat -lnt```
