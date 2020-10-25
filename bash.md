@@ -56,6 +56,9 @@ ldconfig -p | grep libname
 ### Directory content size (including hidden)
 ```du -sch .[!.]* | sort -rh```
 
+### Directory 1st level size
+```du -h -d 1 . | sort -rh```
+
 ### Show time when files was modified
 ```
 ls -lt --time-style=full-iso
