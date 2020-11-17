@@ -43,6 +43,9 @@ __Bash:__
 ### Run container with certain IP
 ```docker run --name containername --network networkname -p 8888:8880 -d -i -t imagename```
 
+### Run container with memory limit and binds
+```docker run -dit --name containername --network host -m="4G" --mount type=bind,source=/home/user,target=/home/host imagename```
+
 ### Start container
 ```docker start -i containername```
 
