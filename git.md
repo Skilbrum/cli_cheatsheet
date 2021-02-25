@@ -9,7 +9,7 @@ git add -u
 git add --all
 ```
 
-### Local ommit with message
+### Local commit with message
 ```
 git commit -m "message"
 ```
@@ -57,6 +57,11 @@ git bundle create ../hash.bundle origin/branchname..branchname HEAD branchname
 ### extract file from stash
 ```
 git checkout stash@{0} -- filename
+```
+
+### restore file from commit
+```
+git checkout commit1hash -- filename
 ```
 
 ### Commit difference
