@@ -6,6 +6,9 @@
 ### All images
 ```docker images```
 
+### Build named image from file
+```docker build -f dockerfilename -t imagename:tag .```
+
 ### Load image
 ```docker load -i filename.tar```
 
