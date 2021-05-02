@@ -49,6 +49,9 @@ __Bash:__
 ### Run container with memory limit and binds
 ```docker run -dit --name containername --network host -m="4G" --mount type=bind,source=/home/user,target=/home/host imagename```
 
+### Update restart policy: container auto start 
+```docker update --restart always contaiername```
+
 ### Start container
 ```docker start -i containername```
 
