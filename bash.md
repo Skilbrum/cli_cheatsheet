@@ -147,3 +147,9 @@ sudo apt-get install docker-ce-cli
 
 ### Open TCP ports list
 ```netstat -lnt```
+
+### Show iptables rules
+```iptables -nL```
+
+### Add iptables rule for port
+```iptables -t filter -A INPUT -p tcp --dport 8080 -j ACCEPT```
