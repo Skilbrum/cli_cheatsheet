@@ -153,3 +153,7 @@ sudo apt-get install docker-ce-cli
 
 ### Add iptables rule for port
 ```iptables -t filter -A INPUT -p tcp --dport 8080 -j ACCEPT```
+
+### Run tmux session with commands
+```tmux new-session 'cd /home; jupyter lab --allow-root --no-browser'```
+
