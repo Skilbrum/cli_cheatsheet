@@ -30,6 +30,9 @@ docker rmi old_name
 ### Remove all containers
 ```docker rm $(docker ps -aq)```
 
+### Remove exited containers
+```docker rm $(docker ps -aqf status=exited)```
+
 ### Container IP
 __Powershell:__  
 ```docker inspect containername | findstr "IP"```
