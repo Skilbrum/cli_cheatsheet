@@ -33,6 +33,9 @@ docker rmi old_name
 ### Remove exited containers
 ```docker rm $(docker ps -aqf status=exited)```
 
+### Remove not used images without tag
+```docker image prune```
+
 ### Container IP
 __Powershell:__  
 ```docker inspect containername | findstr "IP"```
